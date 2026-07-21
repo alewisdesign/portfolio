@@ -1,1 +1,0 @@
-import{t as e}from"./index-Betp4N5B.js";var t=e();function n(){return(0,t.jsx)(`iframe`,{src:`/portfolio/cash-management.html`,title:`Cash Management — Case Study`,style:{border:0,width:`100vw`,height:`100vh`,display:`block`}})}export{n as component};
