@@ -1,0 +1,54 @@
+Aaron Lewis Portfolio V4 complete standalone export
+Downloaded referenced assets: 50
+
+Downloaded assets:
+- assets/01_visitorApp.jpg (208,151 bytes) <= /__l5e/assets-v1/02c3b1f6-214f-4f90-b7e7-ebf2f2aafdd4/01_visitorApp.jpg
+- assets/AA_logo-colors.svg (13,887 bytes) <= /__l5e/assets-v1/04364636-c17a-46c9-844e-863ad1c51a2c/AA_logo-colors.svg
+- assets/ba-1.png (225,011 bytes) <= /__l5e/assets-v1/079ed0d4-1dc6-458f-b489-6f021a2537c0/ba-1.png
+- assets/04_ProductStationWireframes.jpg (337,453 bytes) <= /__l5e/assets-v1/0de7667d-0098-4577-8fe1-2455bcc28381/04_ProductStationWireframes.jpg
+- assets/jira.svg (864 bytes) <= /__l5e/assets-v1/1a23b686-8440-4862-bbde-866e5acf34d3/jira.svg
+- assets/Before_two_near-identical_screens.png (739,587 bytes) <= /__l5e/assets-v1/1c10fac3-fdad-4aac-b318-2a90f20b4a1b/Before_two_near-identical_screens.png
+- assets/aaron-about.png (156,778 bytes) <= /__l5e/assets-v1/1fad89df-a51e-47d8-8c47-2641e29babf5/aaron-about.png
+- assets/11_orderTrackingPage.jpg (340,543 bytes) <= /__l5e/assets-v1/2acad66b-d08b-44cb-8744-2629453dc46a/11_orderTrackingPage.jpg
+- assets/ba-4.png (254,706 bytes) <= /__l5e/assets-v1/328313bb-b9fb-48bf-946a-e5820c6bedcb/ba-4.png
+- assets/09_Student_Details_-_Attendance.png (195,592 bytes) <= /__l5e/assets-v1/360ec5df-5773-4944-ae31-9701624b32cc/09_Student_Details_-_Attendance.png
+- assets/02_Ch11Recap.jpg (875,548 bytes) <= /__l5e/assets-v1/469456f8-7201-4f01-a76d-dadcc585f96c/02_Ch11Recap.jpg
+- assets/ship_to_home_5_-_tendering.png (354,638 bytes) <= /__l5e/assets-v1/4f53311a-4909-403c-ac51-876c2eca539d/ship_to_home_5_-_tendering.png
+- assets/Ship_To_Home_2_-_Sourcing.png (234,592 bytes) <= /__l5e/assets-v1/502134ee-8b5c-4374-bb57-571bbca76625/Ship_To_Home_2_-_Sourcing.png
+- assets/Field_observation_-_store_visit.jpg (581,987 bytes) <= /__l5e/assets-v1/521b188b-6d2d-45fc-97f7-280c6babf75f/Field_observation_-_store_visit.jpg
+- assets/Ship_to_Home_POS_checkout_screen.png (970,236 bytes) <= /__l5e/assets-v1/5dda1b79-b72b-48a0-af1b-a834c701427b/Ship_to_Home_POS_checkout_screen.png
+- assets/10_IT_home.jpg (727,486 bytes) <= /__l5e/assets-v1/6c74d1a4-342d-46b2-9496-63ac8a574a50/10_IT_home.jpg
+- assets/ship-to-home-card.png (123,301 bytes) <= /__l5e/assets-v1/72ff1418-cace-4838-8731-f8b13d86e93a/ship-to-home-card.png
+- assets/Poll_at_Leadership_Conf.png (1,306,524 bytes) <= /__l5e/assets-v1/7d1aed41-149b-4a35-af59-cb08e69d8f77/Poll_at_Leadership_Conf.png
+- assets/figma.svg (1,218 bytes) <= /__l5e/assets-v1/853749d6-4517-4821-8a96-78b128e6c3c5/figma.svg
+- assets/ba-2.png (212,517 bytes) <= /__l5e/assets-v1/855d9afc-0c81-432b-b496-e490dee853ed/ba-2.png
+- assets/ba-6.png (193,071 bytes) <= /__l5e/assets-v1/88aba8eb-dff1-4b36-a6b9-3221c51fcd72/ba-6.png
+- assets/06_Attendance.png (139,160 bytes) <= /__l5e/assets-v1/8c9de26c-ca68-4efa-912d-65cdd077f8e6/06_Attendance.png
+- assets/trello.svg (1,034 bytes) <= /__l5e/assets-v1/909e6929-8e9b-416b-b586-7e5dae065797/trello.svg
+- assets/12_adaptiveMCOL.jpg (435,819 bytes) <= /__l5e/assets-v1/931fd5b5-0327-4839-9e9f-5586b4b7a349/12_adaptiveMCOL.jpg
+- assets/future-pos-card.png (182,856 bytes) <= /__l5e/assets-v1/959135d7-5b72-47de-996d-2ab434d9e789/future-pos-card.png
+- assets/claude.svg (2,457 bytes) <= /__l5e/assets-v1/9962b9b1-9ab6-4ded-a536-6783446708bf/claude.svg
+- assets/ba-3.png (232,608 bytes) <= /__l5e/assets-v1/9af0979f-37f5-47c2-a693-c7cce238e019/ba-3.png
+- assets/photoshop.svg (2,168 bytes) <= /__l5e/assets-v1/9afe98d6-7b57-4969-968f-abf8d4d1c2d7/photoshop.svg
+- assets/aaron-hero.png (260,176 bytes) <= /__l5e/assets-v1/a4391d25-c22e-4801-afdc-5edd4aefe165/aaron-hero.png
+- assets/ship_to_home_4.png (191,874 bytes) <= /__l5e/assets-v1/a8fdcb30-811e-4643-9bcf-058aa4341cdb/ship_to_home_4.png
+- assets/Before_-_the_dense_three-table_screen.png (423,536 bytes) <= /__l5e/assets-v1/b44db764-490d-48d7-bd6c-8720e9102d27/Before_-_the_dense_three-table_screen.png
+- assets/Leadership_Conf_4.png (2,979,227 bytes) <= /__l5e/assets-v1/b5d27ac7-76d0-4275-b3c4-58329e178db2/Leadership_Conf_4.png
+- assets/cash-management-card.png (167,301 bytes) <= /__l5e/assets-v1/b7962baf-f811-41b3-9787-32a0b1ba6ffe/cash-management-card.png
+- assets/FuturePOS_conceptHeroShot.png (829,637 bytes) <= /__l5e/assets-v1/b9334cdc-aa27-4318-9827-4363d6040828/FuturePOS_conceptHeroShot.png
+- assets/05_WebOrders.jpg (450,393 bytes) <= /__l5e/assets-v1/ba064019-e683-407d-89b1-0344b7143340/05_WebOrders.jpg
+- assets/illustrator.svg (2,270 bytes) <= /__l5e/assets-v1/bd55c24a-4f11-4003-9f30-b9eabd0100da/illustrator.svg
+- assets/Future_Point_of_Sale_Proposal.png (167,506 bytes) <= /__l5e/assets-v1/c4f63f38-305d-4775-815b-83c861b0ae36/Future_Point_of_Sale_Proposal.png
+- assets/07_emailNotifications.png (564,773 bytes) <= /__l5e/assets-v1/c813afe6-81f9-40a3-b635-b6ddc16e7a4d/07_emailNotifications.png
+- assets/lovable.svg (9,916 bytes) <= /__l5e/assets-v1/c8843949-3f05-4c00-916b-e4d4669ec19c/lovable.svg
+- assets/03_eCoaching.jpg (369,801 bytes) <= /__l5e/assets-v1/cd3c2a87-2f24-4ac3-afa0-bc4964581c80/03_eCoaching.jpg
+- assets/Aaron-Lewis-Resume.pdf (67,722 bytes) <= /__l5e/assets-v1/d0f5d523-414c-4c6d-839f-1ce97f323c79/Aaron-Lewis-Resume.pdf
+- assets/ship_to_address_designs.gif (1,164,966 bytes) <= /__l5e/assets-v1/da6c68c2-b4b2-44f9-9b1d-2f5d7b3d3b89/ship_to_address_designs.gif
+- assets/Cash_Management_-_POS_screen.png (1,866,238 bytes) <= /__l5e/assets-v1/df5b3bf3-43f5-4ddb-b274-260398e625f6/Cash_Management_-_POS_screen.png
+- assets/journey_map_combined.png (212,213 bytes) <= /__l5e/assets-v1/e15b4cf3-29ab-4200-aa72-77d83c5d8a31/journey_map_combined.png
+- assets/miro.svg (640 bytes) <= /__l5e/assets-v1/e4e49f22-c731-4716-a1e0-66476c0ea7b8/miro.svg
+- assets/ba-5.png (242,625 bytes) <= /__l5e/assets-v1/e73797fe-4a6f-4502-9156-218eb62a395c/ba-5.png
+- assets/Ship_To_Home_3_-_Verify_Address.png (187,045 bytes) <= /__l5e/assets-v1/ed96af11-b306-4c5e-adde-a59487385e88/Ship_To_Home_3_-_Verify_Address.png
+- assets/After_single_consolidated_screen.gif (625,490 bytes) <= /__l5e/assets-v1/f161d292-ff1c-4667-b8e9-5b63bb9fa85e/After_single_consolidated_screen.gif
+- assets/08_eVoucherEmailTemplate.jpg (435,844 bytes) <= /__l5e/assets-v1/f1f2bd95-a8c0-40d0-bdbf-921281b48c4f/08_eVoucherEmailTemplate.jpg
+- assets/Ship_To_Home_1_-_Final_Flow.png (340,623 bytes) <= /__l5e/assets-v1/fa9dc80e-4e2a-4b1d-b614-e70bc4d49e85/Ship_To_Home_1_-_Final_Flow.png
