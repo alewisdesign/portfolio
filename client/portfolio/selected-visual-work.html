@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Selected Visual Work — Aaron Lewis</title>
+    <meta
+      name="description"
+      content="A gallery of UI and visual design work across mobile, web, email, and internal tools — the visual counterpart to Aaron Lewis's case studies."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Instrument+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="cs-page">
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="/__l5e/assets-v1/04364636-c17a-46c9-844e-863ad1c51a2c/AA_logo-colors.svg" alt="" />
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">AARON LEWIS</span>
+            <span class="brand-role">PRODUCT DESIGNER</span>
+          </span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="primary-nav" class="site-nav" aria-label="Primary">
+          <div class="nav-item has-dropdown">
+            <button type="button" class="nav-link nav-dropdown-toggle" aria-expanded="false" aria-controls="cs-menu">
+              Case Studies
+              <svg class="mdi" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
+              </svg>
+            </button>
+            <div id="cs-menu" class="nav-dropdown" role="menu">
+              <a href="/case-studies/ship-to-home" role="menuitem">Ship to Home</a>
+              <a href="/case-studies/cash-management" role="menuitem">Cash Management</a>
+              <a href="/case-studies/future-point-of-sale" role="menuitem">Future Point of Sale</a>
+            </div>
+          </div>
+          <a href="/about" target="_top">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container cs-main">
+      <!-- HERO CARD -->
+      <section class="cs-hero card card--light">
+        <span class="cs-hero-watermark" aria-hidden="true">✱</span>
+        <span class="cs-badge">VISUAL &amp; UI DESIGN</span>
+        <h1 class="cs-hero-title">Selected<br />Visual Work</h1>
+        <p class="cs-hero-summary">
+          My case studies focus on process and problem-solving — this page is the visual counterpart. A collection of UI
+          and visual design work across mobile, web, email, and internal tools, showing range in hierarchy, layout, and
+          craft that doesn't always come through in a research narrative.
+        </p>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="vw-section">
+        <p class="cs-eyebrow cs-eyebrow--red">THE WORK</p>
+        <h2 class="vw-heading">A range of formats and problems</h2>
+
+        <div class="vw-grid" id="vw-grid">
+          <!-- Cards populated below. data-vw-id ties card ↔ lightbox. -->
+          <!-- 01 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-1"
+            data-vw-image="/__l5e/assets-v1/02c3b1f6-214f-4f90-b7e7-ebf2f2aafdd4/01_visitorApp.jpg"
+            data-vw-title="Visitor Sign-In"
+            data-vw-desc="Enterprise visitor management for secure sign-in and verification."
+            data-vw-tags="Enterprise,Web App,Internal tool"
+            data-vw-placeholder="Visitor Sign-In screen"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Visitor Sign-In">
+              <span class="vw-num">01</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Visitor Sign-In screen"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Visitor Sign-In</div>
+              <div class="vw-desc">Enterprise visitor management for secure sign-in and verification.</div>
+              <div class="vw-tags">
+                <span class="vw-tag">Enterprise</span>
+                <span class="vw-tag">Web App</span>
+                <span class="vw-tag">Internal Tool</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 02 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-2"
+            data-vw-image="/__l5e/assets-v1/469456f8-7201-4f01-a76d-dadcc585f96c/02_Ch11Recap.jpg"
+            data-vw-title="Report Builder"
+            data-vw-desc="An enterprise reporting platform that lets analysts create and deliver custom reports to clients."
+            data-vw-tags="Internal Tool,B2B,Reporting,Automation"
+            data-vw-placeholder="Internal dashboard"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Internal Inventory Dashboard">
+              <span class="vw-num">02</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Report Builder screen"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Report Builder</div>
+              <div class="vw-desc">
+                An enterprise reporting platform that lets analysts create and deliver custom reports to clients.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">Internal Tool</span>
+                <span class="vw-tag">B2B</span>
+                <span class="vw-tag">Reporting</span>
+                <span class="vw-tag">Automation</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 03 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-3"
+            data-vw-image="/__l5e/assets-v1/cd3c2a87-2f24-4ac3-afa0-bc4964581c80/03_eCoaching.jpg"
+            data-vw-title="Retail Coaching"
+            data-vw-desc="A coaching platform that helps retail managers document, track, and manage employee coaching conversations."
+            data-vw-tags="Retail,Enterprise,Web App,Mobile"
+            data-vw-placeholder="Retail Coaching"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Retail Coaching">
+              <span class="vw-num">03</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Retail Coaching"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Retail Coaching</div>
+              <div class="vw-desc">
+                A coaching platform that helps retail managers document, track, and manage employee coaching
+                conversations.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">Retail</span>
+                <span class="vw-tag">Enterprise</span>
+                <span class="vw-tag">Web App</span>
+                <span class="vw-tag">Mobile</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 04 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-4"
+            data-vw-image="/__l5e/assets-v1/0de7667d-0098-4577-8fe1-2455bcc28381/04_ProductStationWireframes.jpg"
+            data-vw-title="Product Station Wireframes"
+            data-vw-desc="Responsive wireframes for a product information lookup application across desktop, tablet, and mobile devices."
+            data-vw-tags="Enterprise,Web App,Mobile,Responsive"
+            data-vw-placeholder="Product Station Wireframes"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Product Station Wireframes">
+              <span class="vw-num">04</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Product Station Wireframes"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Product Station Wireframes</div>
+              <div class="vw-desc">
+                Responsive wireframes for a product information lookup application across desktop, tablet, and mobile
+                devices.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">Enterprise</span>
+                <span class="vw-tag">Web App</span>
+                <span class="vw-tag">Mobile</span>
+                <span class="vw-tag">Responsive</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 05 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-5"
+            data-vw-image="/__l5e/assets-v1/ba064019-e683-407d-89b1-0344b7143340/05_WebOrders.jpg"
+            data-vw-title="Retail Web Orders App"
+            data-vw-desc="A mobile fulfillment app that guides retail employees through picking and staging online orders."
+            data-vw-tags="Retail,Enterprise,Mobile,Order Fulfillment"
+            data-vw-placeholder="Retail Web Orders App"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Retail Web Orders App">
+              <span class="vw-num">05</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Retail Web Orders App"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Retail Web Orders App</div>
+              <div class="vw-desc">
+                A mobile fulfillment app that guides retail employees through picking and staging online orders.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">Retail</span>
+                <span class="vw-tag">Enterprise</span>
+                <span class="vw-tag">Mobile</span>
+                <span class="vw-tag">Order Fulfillment</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 06 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-6"
+            data-vw-image="/__l5e/assets-v1/8c9de26c-ca68-4efa-912d-65cdd077f8e6/06_Attendance.png"
+            data-vw-title="Attendance App"
+            data-vw-desc="An iPad application that helps schools and community programs manage student attendance for after-school activities."
+            data-vw-tags="SaaS,iPad,Mobile,EdTech"
+            data-vw-placeholder="Attendance App"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Attendance App">
+              <span class="vw-num">06</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Attendance App"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Attendance App</div>
+              <div class="vw-desc">
+                An iPad application that helps schools and community programs manage student attendance for after-school
+                activities.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">SaaS</span>
+                <span class="vw-tag">iPad</span>
+                <span class="vw-tag">Mobile</span>
+                <span class="vw-tag">EdTech</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 07 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-7"
+            data-vw-image="/__l5e/assets-v1/c813afe6-81f9-40a3-b635-b6ddc16e7a4d/07_emailNotifications.png"
+            data-vw-title="Email Notifications"
+            data-vw-desc="A teaser email designed to drive engagement with a retail analytics report."
+            data-vw-tags="B2B,Email,Report,Responsive,"
+            data-vw-placeholder="Email Notifications"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Email Notifications">
+              <span class="vw-num">07</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Email Notifications"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Email Notifications</div>
+              <div class="vw-desc">A teaser email designed to drive engagement with a retail analytics report.</div>
+              <div class="vw-tags">
+                <span class="vw-tag">B2B</span>
+                <span class="vw-tag">Email</span>
+                <span class="vw-tag">Report</span>
+                <span class="vw-tag">Responsive</span>
+                <span class="vw-tag">Customer Engagement</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 08 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-8"
+            data-vw-image="/__l5e/assets-v1/f1f2bd95-a8c0-40d0-bdbf-921281b48c4f/08_eVoucherEmailTemplate.jpg"
+            data-vw-title="eVoucher Email Template"
+            data-vw-desc="An eVoucher design for a promotional offer and customer rewards experience."
+            data-vw-tags="B2C,Email,Retail,Customer Engagement"
+            data-vw-placeholder="eVoucher Email Template"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: eVoucher Email Template">
+              <span class="vw-num">08</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="eVoucher Email Template"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">eVoucher Email Template</div>
+              <div class="vw-desc">An eVoucher design for a promotional offer and customer rewards experience.</div>
+              <div class="vw-tags">
+                <span class="vw-tag">B2C</span>
+                <span class="vw-tag">Email</span>
+                <span class="vw-tag">Retail</span>
+                <span class="vw-tag">Customer Engagement</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 09 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-9"
+            data-vw-image="/__l5e/assets-v1/360ec5df-5773-4944-ae31-9701624b32cc/09_Student_Details_-_Attendance.png"
+            data-vw-title="Learning Circle Software"
+            data-vw-desc="A SaaS student success platform that helps educators track academic progress, behavior, and interventions."
+            data-vw-tags="SaaS,EdTech,Reporting,Web App"
+            data-vw-placeholder="Learning Circle Software"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Learning Circle Software">
+              <span class="vw-num">09</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Learning Circle Software"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Learning Circle Software</div>
+              <div class="vw-desc">
+                A SaaS student success platform that helps educators track academic progress, behavior, and
+                interventions.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">SaaS</span>
+                <span class="vw-tag">EdTech</span>
+                <span class="vw-tag">Reporting</span>
+                <span class="vw-tag">Web App</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 10 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-10"
+            data-vw-image="/__l5e/assets-v1/6c74d1a4-342d-46b2-9496-63ac8a574a50/10_IT_home.jpg"
+            data-vw-title="IT Help Desk"
+            data-vw-desc="An internal IT support portal for retail corporate employees to submit tickets and stay informed about system updates and outages."
+            data-vw-tags="Enterprise,Web App,Employee Experience"
+            data-vw-placeholder="IT Help Desk"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: IT Help Desk">
+              <span class="vw-num">10</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="IT Help Desk"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">IT Help Desk</div>
+              <div class="vw-desc">
+                An internal IT support portal for retail corporate employees to submit tickets and stay informed about
+                system updates and outages.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">Enterprise</span>
+                <span class="vw-tag">Web App</span>
+                <span class="vw-tag">Employee Experience</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 11 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-11"
+            data-vw-image="/__l5e/assets-v1/2acad66b-d08b-44cb-8744-2629453dc46a/11_orderTrackingPage.jpg"
+            data-vw-title="Order Tracking"
+            data-vw-desc="A retail order pickup experience connecting online customer orders with in-store fulfillment and pickup."
+            data-vw-tags="Web App,Retail,Order Fulfillment"
+            data-vw-placeholder="Order Tracking"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Order Tracking">
+              <span class="vw-num">11</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Order Tracking"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Order Tracking</div>
+              <div class="vw-desc">
+                A retail order pickup experience connecting online customer orders with in-store fulfillment and pickup.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">Web App</span>
+                <span class="vw-tag">Retail</span>
+                <span class="vw-tag">Order Fulfillment</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 12 -->
+          <article
+            class="vw-card"
+            data-vw-id="vw-12"
+            data-vw-image="/__l5e/assets-v1/931fd5b5-0327-4839-9e9f-5586b4b7a349/12_adaptiveMCOL.jpg"
+            data-vw-title="Checkout Experience"
+            data-vw-desc="A shopping cart experience for a national electronics retailer’s e-commerce platform."
+            data-vw-tags="Retail,Web App,B2C,Enterprise"
+            data-vw-placeholder="Checkout Experience"
+          >
+            <button type="button" class="vw-thumbwrap" aria-label="View larger: Checkout Experience">
+              <span class="vw-num">12</span>
+              <span class="vw-expand" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="15 3 21 3 21 9" />
+                  <polyline points="9 21 3 21 3 15" />
+                  <line x1="21" y1="3" x2="14" y2="10" />
+                  <line x1="3" y1="21" x2="10" y2="14" />
+                </svg>
+              </span>
+              <span class="vw-thumb" data-placeholder="Checkout Experience"></span>
+            </button>
+            <div class="vw-caption">
+              <div class="vw-title">Checkout Experience</div>
+              <div class="vw-desc">
+                A shopping cart experience for a national electronics retailer’s e-commerce platform.
+              </div>
+              <div class="vw-tags">
+                <span class="vw-tag">Retail</span>
+                <span class="vw-tag">Web App</span>
+                <span class="vw-tag">B2C</span>
+                <span class="vw-tag">Enterprise</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- BACK TO CASE STUDY -->
+      <a href="/case-studies/ship-to-home" class="cs-nextup">
+        <div>
+          <div class="cs-nextup-eyebrow">BACK TO CASE STUDY · 01</div>
+          <div class="cs-nextup-title">Ship to Home</div>
+          <div class="cs-nextup-sub">The first problem is never the whole problem.</div>
+        </div>
+        <span class="cs-nextup-arrow" aria-hidden="true"
+          ><svg class="mdi" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 11h12.17l-5.59-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4z" /></svg
+        ></span>
+      </a>
+    </main>
+
+    <!-- LIGHTBOX -->
+    <div id="vw-lightbox" class="vw-lightbox" role="dialog" aria-modal="true" aria-labelledby="vw-lb-title" hidden>
+      <button type="button" class="vw-lb-close" id="vw-lb-close" aria-label="Close">✕</button>
+      <button type="button" class="vw-lb-nav vw-lb-prev" id="vw-lb-prev" aria-label="Previous image">
+        <svg
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <polyline points="15 6 9 12 15 18" />
+        </svg>
+      </button>
+      <button type="button" class="vw-lb-nav vw-lb-next" id="vw-lb-next" aria-label="Next image">
+        <svg
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <polyline points="9 6 15 12 9 18" />
+        </svg>
+      </button>
+      <div class="vw-lb-panel">
+        <div class="vw-lb-image" id="vw-lb-image" data-placeholder=""></div>
+        <div class="vw-lb-meta">
+          <div id="vw-lb-title" class="vw-lb-title">—</div>
+          <div id="vw-lb-desc" class="vw-lb-desc">—</div>
+          <div id="vw-lb-tags" class="vw-lb-tags"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div class="grid-12 footer-row">
+          <div class="col-6 footer-brand-col">
+            <a class="brand" href="/">
+              <span class="brand-mark" aria-hidden="true">
+                <img src="/__l5e/assets-v1/04364636-c17a-46c9-844e-863ad1c51a2c/AA_logo-colors.svg" alt="" />
+              </span>
+              <span class="brand-text">
+                <span class="brand-name">AARON LEWIS</span>
+                <span class="brand-role">PRODUCT DESIGNER</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-6 footer-nav-col">
+            <nav class="footer-nav" aria-label="Footer">
+              <a href="https://www.linkedin.com/in/aldsgn/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a
+                href="/__l5e/assets-v1/d0f5d523-414c-4c6d-839f-1ce97f323c79/Aaron-Lewis-Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Download Resume</a
+              >
+              <a href="mailto:alewisdesign@gmail.com" class="email-red">alewisdesign@gmail.com</a>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-fine">
+          <span>Dallas–Fort Worth · Remote</span>
+          <span>© <span id="year">2026</span> Aaron Lewis</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cash Management: Aaron Lewis Case Study</title>
+    <meta
+      name="description"
+      content="Case study: Simplifying the store cash-handling workflow through research, heuristic analysis, and stakeholder collaboration."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Instrument+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="cs-page">
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="/__l5e/assets-v1/04364636-c17a-46c9-844e-863ad1c51a2c/AA_logo-colors.svg" alt="" />
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">AARON LEWIS</span>
+            <span class="brand-role">PRODUCT DESIGNER</span>
+          </span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="primary-nav" class="site-nav" aria-label="Primary">
+          <div class="nav-item has-dropdown">
+            <button type="button" class="nav-link nav-dropdown-toggle" aria-expanded="false" aria-controls="cs-menu">
+              Case Studies
+              <svg class="mdi" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
+              </svg>
+            </button>
+            <div id="cs-menu" class="nav-dropdown" role="menu">
+              <a href="/case-studies/ship-to-home" role="menuitem">Ship to Home</a>
+              <a href="/case-studies/cash-management" role="menuitem">Cash Management</a>
+              <a href="/case-studies/future-point-of-sale" role="menuitem">Future Point of Sale</a>
+            </div>
+          </div>
+          <a href="/about" target="_top">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container cs-main">
+      <!-- HERO CARD -->
+      <section class="cs-hero card card--light">
+        <span class="cs-hero-watermark" aria-hidden="true">02</span>
+        <span class="cs-badge">WORKFLOW OPTIMIZATION</span>
+        <h1 class="cs-hero-title">Cash <br />Management</h1>
+        <p class="cs-hero-tagline">
+          Deeper understanding.
+          <span class="cs-accent">Better decisions.</span>
+        </p>
+        <p class="cs-hero-summary">
+          Simplifying the store cash-handling workflow by combining research, heuristic analysis, and stakeholder
+          collaboration, aligning the software with how store employees actually work.
+        </p>
+
+        <div class="cs-meta-grid">
+          <div class="cs-meta-card">
+            <div class="cs-meta-label">ROLE</div>
+            <div class="cs-meta-value">Sr. UX &amp; Product Designer</div>
+          </div>
+          <div class="cs-meta-card">
+            <div class="cs-meta-label">PLATFORM</div>
+            <div class="cs-meta-value">Enterprise POS</div>
+          </div>
+          <div class="cs-meta-card">
+            <div class="cs-meta-label">RETAILER</div>
+            <div class="cs-meta-value">O'Reilly Auto Parts</div>
+          </div>
+          <div class="cs-meta-card">
+            <div class="cs-meta-label">FOCUS</div>
+            <div class="cs-meta-value">Workflow &amp; IA</div>
+          </div>
+        </div>
+
+        <div
+          class="cs-hero-image"
+          role="img"
+          aria-label="Cash Management: POS screen"
+          style="background-image:url('/__l5e/assets-v1/df5b3bf3-43f5-4ddb-b274-260398e625f6/Cash_Management_-_POS_screen.png');background-size:cover;background-position:center;"
+        ></div>
+      </section>
+
+      <!-- BODY -->
+      <div class="cs-body">
+        <aside class="cs-rail" aria-label="On this page">
+          <div class="cs-rail-label">ON THIS PAGE</div>
+          <nav class="cs-rail-nav">
+            <a href="#summary" data-navlink="summary" class="cs-rail-link is-active">Summary</a>
+            <a href="#problem" data-navlink="problem" class="cs-rail-link">Problem</a>
+            <a href="#constraints" data-navlink="constraints" class="cs-rail-link">Constraints</a>
+            <a href="#approach" data-navlink="approach" class="cs-rail-link">Approach</a>
+            <a href="#outcome" data-navlink="outcome" class="cs-rail-link">Outcome</a>
+            <a href="#reflections" data-navlink="reflections" class="cs-rail-link">Reflections</a>
+          </nav>
+          <div class="cs-rail-callout">
+            <div class="cs-rail-callout-label">METHODS</div>
+            <div class="cs-rail-callout-value">
+              Heuristic evaluation · Usability sessions · Field observation · Stakeholder collaboration
+            </div>
+          </div>
+        </aside>
+
+        <div class="cs-content">
+          <!-- SUMMARY -->
+          <section id="summary" data-section="summary" class="cs-section">
+            <div class="cs-eyebrow">SUMMARY</div>
+            <h2 class="cs-h2">Deeper understanding. Better decisions.</h2>
+            <p class="cs-lead">
+              A workflow-optimization project that combined research, heuristic analysis, and stakeholder collaboration
+              to simplify cash management, reduce friction, and better align the software with how store employees
+              actually worked.
+            </p>
+
+            <div class="cs-stat-grid">
+              <div class="cs-stat">
+                <div class="cs-stat-num">60K+</div>
+                <div class="cs-stat-label">employees on the platform</div>
+              </div>
+              <div class="cs-stat">
+                <div class="cs-stat-num">7</div>
+                <div class="cs-stat-label">recurring usability issues surfaced</div>
+              </div>
+              <div class="cs-stat cs-stat--dark">
+                <div class="cs-stat-num">2→1</div>
+                <div class="cs-stat-label">near-identical screens consolidated</div>
+              </div>
+              <div class="cs-stat">
+                <div class="cs-stat-num">3</div>
+                <div class="cs-stat-label">stakeholder teams aligned</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- PROBLEM -->
+          <section id="problem" data-section="problem" class="cs-section">
+            <div class="cs-eyebrow">PROBLEM</div>
+            <h2 class="cs-h2">Workflows that drifted from daily reality</h2>
+            <p class="cs-lead">
+              Store opening and closing procedures are some of the most repetitive and time-sensitive workflows
+              employees perform. The Cash Management flow had gradually accumulated unnecessary complexity over time,
+              creating friction for employees trying to complete these tasks quickly and accurately.
+            </p>
+            <p>Through heuristic evaluation and user interviews, I discovered several recurring issues:</p>
+
+            <div class="cs-num-grid">
+              <div class="cs-num-item">
+                <span class="cs-num-marker">01</span>
+                <p>Employees routinely skipped screens because they didn't provide value.</p>
+              </div>
+              <div class="cs-num-item">
+                <span class="cs-num-marker">02</span>
+                <p>
+                  Some forms allowed the same information to be entered multiple ways, creating unnecessary confusion.
+                </p>
+              </div>
+              <div class="cs-num-item">
+                <span class="cs-num-marker">03</span>
+                <p>
+                  One screen presented three separate tables as one large block of information with little visual
+                  hierarchy.
+                </p>
+              </div>
+              <div class="cs-num-item">
+                <span class="cs-num-marker">04</span>
+                <p>
+                  Two consecutive screens contained nearly identical information, forcing users through an unnecessary
+                  extra step.
+                </p>
+              </div>
+              <div class="cs-num-item">
+                <span class="cs-num-marker">05</span>
+                <p>
+                  Modal dialogs throughout the experience had become inconsistent and no longer followed our design
+                  standards.
+                </p>
+              </div>
+              <div class="cs-num-item">
+                <span class="cs-num-marker">06</span>
+                <p>
+                  Labels and terminology often reflected internal business language rather than how employees described
+                  their work.
+                </p>
+              </div>
+              <div class="cs-num-item cs-num-item--wide">
+                <span class="cs-num-marker">07</span>
+                <p>
+                  Several layouts prioritized displaying information instead of helping employees complete tasks
+                  efficiently.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="cs-figure"
+              role="img"
+              aria-label="Before: the dense three-table screen"
+              style="background-image:url('/__l5e/assets-v1/b44db764-490d-48d7-bd6c-8720e9102d27/Before_-_the_dense_three-table_screen.png');background-size:cover;background-position:center;"
+            ></div>
+
+            <div class="cs-callout-blue">
+              <p>
+                Rather than isolated UI problems, these were symptoms of workflows that had slowly drifted away from the
+                reality of daily store operations.
+              </p>
+            </div>
+          </section>
+
+          <!-- CONSTRAINTS -->
+          <section id="constraints" data-section="constraints" class="cs-section">
+            <div class="cs-eyebrow">CONSTRAINTS</div>
+            <h2 class="cs-h2">When usability meets the business</h2>
+            <p class="cs-lead">
+              Although many usability improvements appeared straightforward, several business constraints shaped the
+              final solution.
+            </p>
+            <p>
+              One proposed improvement was combining two nearly identical screens into one. I believed the screens could
+              be safely consolidated after observing employee behavior. However, Store Operations initially objected due
+              to legal and loss-prevention concerns.
+            </p>
+            <p>
+              Instead of accepting the constraint at face value, we brought together Store Operations, Legal, and Loss
+              Prevention to review both the user research and the proposed redesign. After understanding how employees
+              actually completed the workflow, those stakeholders agreed the screens could be combined while still
+              satisfying operational requirements.
+            </p>
+            <p>
+              Not every proposed improvement survived. One interaction I redesigned was later challenged after
+              stakeholders introduced an operational step I had not previously understood. With a better understanding
+              of the full workflow, I reversed that decision and redesigned the experience around the newly uncovered
+              requirement.
+            </p>
+
+            <div class="cs-quote-dark">
+              <span class="cs-quote-mark" aria-hidden="true">“</span>
+              <p>
+                Good design isn't about defending ideas, it's about improving understanding to work toward the
+                <span class="cs-accent">best solution.</span>
+              </p>
+            </div>
+          </section>
+
+          <!-- APPROACH -->
+          <section id="approach" data-section="approach" class="cs-section">
+            <div class="cs-eyebrow">APPROACH &amp; DESIGN DECISIONS</div>
+            <h2 class="cs-h2">Partnering, observing, and pressure-testing</h2>
+            <p class="cs-lead">
+              I partnered closely with our Product Manager throughout the project. Together we combined several research
+              methods:
+            </p>
+
+            <div class="cs-method-grid">
+              <div class="cs-method-card">
+                <div class="cs-method-num">01</div>
+                <div class="cs-method-label">Heuristic evaluation</div>
+              </div>
+              <div class="cs-method-card">
+                <div class="cs-method-num">02</div>
+                <div class="cs-method-label">Employee usability sessions</div>
+              </div>
+              <div class="cs-method-card">
+                <div class="cs-method-num">03</div>
+                <div class="cs-method-label">Observation of real workflows</div>
+              </div>
+              <div class="cs-method-card">
+                <div class="cs-method-num">04</div>
+                <div class="cs-method-label">Stakeholder collaboration</div>
+              </div>
+            </div>
+
+            <div class="cs-split">
+              <div>
+                <p>
+                  My research began with regular store visits, not to evaluate specific features, but to understand the
+                  environment employees worked in. This helped me build empathy for their work and establish trust
+                  before conducting project-specific research. As a result, employees were more comfortable sharing
+                  honest feedback and thinking aloud as they completed real tasks.
+                </p>
+                <p>
+                  Rather than simply asking employees what they wanted, I asked them to perform their normal tasks while
+                  thinking aloud. This revealed where users hesitated, where they became confused, and where they openly
+                  admitted:
+                </p>
+                <div class="cs-callout-blue">
+                  <p class="cs-callout-heading">"We usually skip this."</p>
+                  <p>Those moments became some of the project's most valuable insights.</p>
+                </div>
+              </div>
+              <div
+                class="cs-split-image"
+                role="img"
+                aria-label="Field observation: store visit"
+                style="background-image:url('/__l5e/assets-v1/521b188b-6d2d-45fc-97f7-280c6babf75f/Field_observation_-_store_visit.jpg');background-size:cover;background-position:center;"
+              ></div>
+            </div>
+
+            <h3 class="cs-h3">From findings to redesign</h3>
+
+            <div class="cs-subcard">
+              <div class="cs-subcard-head">
+                <span class="cs-subcard-dot" aria-hidden="true"></span>
+                <h3>Workflow simplification</h3>
+              </div>
+              <ul>
+                <li>Consolidated two nearly identical screens into one after validating business constraints.</li>
+                <li>Removed unnecessary steps employees consistently bypassed.</li>
+                <li>Simplified information entry where duplicate methods created confusion.</li>
+              </ul>
+              <div class="cs-ba-grid">
+                <div>
+                  <div class="cs-ba-label">BEFORE: TWO SCREENS</div>
+                  <div
+                    class="cs-ba-image"
+                    role="img"
+                    aria-label="Before: two near-identical screens"
+                    style="background-image:url('/__l5e/assets-v1/1c10fac3-fdad-4aac-b318-2a90f20b4a1b/Before_two_near-identical_screens.png');background-size:cover;background-position:center;"
+                  ></div>
+                </div>
+                <div>
+                  <div class="cs-ba-label cs-ba-label--after">AFTER: ONE SCREEN</div>
+                  <div
+                    class="cs-ba-image"
+                    role="img"
+                    aria-label="After: single consolidated screen"
+                    style="background-image:url('/__l5e/assets-v1/f161d292-ff1c-4667-b8e9-5b63bb9fa85e/After_single_consolidated_screen.gif');background-size:cover;background-position:center;"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cs-pair">
+              <div class="cs-subcard">
+                <div class="cs-subcard-head">
+                  <span class="cs-subcard-dot" aria-hidden="true"></span>
+                  <h3>Information architecture</h3>
+                </div>
+                <ul>
+                  <li>Introduced clearer hierarchy where dense tables previously appeared as one continuous block.</li>
+                  <li>Moved secondary information behind contextual tooltips to reduce visual noise.</li>
+                  <li>Improved scanability throughout the experience.</li>
+                </ul>
+              </div>
+              <div class="cs-subcard">
+                <div class="cs-subcard-head">
+                  <span class="cs-subcard-dot" aria-hidden="true"></span>
+                  <h3>UI consistency</h3>
+                </div>
+                <ul>
+                  <li>Updated numerous legacy modal dialogs to match current design standards.</li>
+                  <li>Improved consistency across components and interaction patterns.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cs-pair">
+              <div class="cs-subcard cs-subcard--dark">
+                <div class="cs-subcard-head">
+                  <span class="cs-subcard-dot" aria-hidden="true"></span>
+                  <h3>Matching software to real workflows</h3>
+                </div>
+                <ul>
+                  <li>
+                    Reordered input fields to match the printed paper form employees complete, reducing mental effort
+                    between the digital and physical tasks.
+                  </li>
+                  <li>
+                    Updated terminology to reflect how employees describe their work, not internal corporate language.
+                  </li>
+                </ul>
+              </div>
+              <div class="cs-subcard cs-subcard--dark">
+                <div class="cs-subcard-head">
+                  <span class="cs-subcard-dot" aria-hidden="true"></span>
+                  <h3>Operational improvements</h3>
+                </div>
+                <ul>
+                  <li>
+                    Proposed collapsing sections of printed reports whenever values were zero or unused, making
+                    documentation shorter and easier to review.
+                  </li>
+                  <li>Even digitally, it's better to show only what is relevant.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- OUTCOME -->
+          <section id="outcome" data-section="outcome" class="cs-section">
+            <div class="cs-eyebrow">OUTCOME</div>
+            <h2 class="cs-h2">A shorter, clearer, better-aligned workflow</h2>
+            <p class="cs-lead">
+              The redesign produced improvements across the entire workflow rather than solving a single isolated issue.
+              The experience became:
+            </p>
+
+            <div class="cs-chips">
+              <span class="cs-chip"><span class="cs-chip-check">✓</span>Shorter</span>
+              <span class="cs-chip"><span class="cs-chip-check">✓</span>Easier to scan</span>
+              <span class="cs-chip"><span class="cs-chip-check">✓</span>More consistent</span>
+              <span class="cs-chip"
+                ><span class="cs-chip-check">✓</span>Better aligned with employee mental models</span
+              >
+              <span class="cs-chip"
+                ><span class="cs-chip-check">✓</span>Integrated with real-world store procedures</span
+              >
+            </div>
+
+            <div class="ba-carousel" id="ba-carousel" aria-label="Before and after comparisons">
+              <div class="ba-stage">
+                <button class="ba-nav ba-prev" type="button" aria-label="Previous comparison">
+                  <svg class="mdi" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M15.41 16.59 10.83 12l4.58-4.59L14 6l-6 6 6 6z" />
+                  </svg>
+                </button>
+                <div class="ba-viewer placeholder-img" role="img" aria-live="polite">
+                  <span class="ba-caption">Before &amp; After: 1 of 6</span>
+                </div>
+                <button class="ba-nav ba-next" type="button" aria-label="Next comparison">
+                  <svg class="mdi" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="ba-thumbs" role="tablist">
+                <button
+                  class="ba-thumb is-active"
+                  type="button"
+                  role="tab"
+                  aria-selected="true"
+                  data-index="0"
+                  data-src="/__l5e/assets-v1/079ed0d4-1dc6-458f-b489-6f021a2537c0/ba-1.png"
+                  data-caption="Before &amp; After: 1 of 6"
+                >
+                  <span>01</span>
+                </button>
+                <button
+                  class="ba-thumb"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  data-index="1"
+                  data-src="/__l5e/assets-v1/855d9afc-0c81-432b-b496-e490dee853ed/ba-2.png"
+                  data-caption="Before &amp; After: 2 of 6"
+                >
+                  <span>02</span>
+                </button>
+                <button
+                  class="ba-thumb"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  data-index="2"
+                  data-src="/__l5e/assets-v1/9af0979f-37f5-47c2-a693-c7cce238e019/ba-3.png"
+                  data-caption="Before &amp; After: 3 of 6"
+                >
+                  <span>03</span>
+                </button>
+                <button
+                  class="ba-thumb"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  data-index="3"
+                  data-src="/__l5e/assets-v1/328313bb-b9fb-48bf-946a-e5820c6bedcb/ba-4.png"
+                  data-caption="Before &amp; After: 4 of 6"
+                >
+                  <span>04</span>
+                </button>
+                <button
+                  class="ba-thumb"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  data-index="4"
+                  data-src="/__l5e/assets-v1/e73797fe-4a6f-4502-9156-218eb62a395c/ba-5.png"
+                  data-caption="Before &amp; After: 5 of 6"
+                >
+                  <span>05</span>
+                </button>
+                <button
+                  class="ba-thumb"
+                  type="button"
+                  role="tab"
+                  aria-selected="false"
+                  data-index="5"
+                  data-src="/__l5e/assets-v1/88aba8eb-dff1-4b36-a6b9-3221c51fcd72/ba-6.png"
+                  data-caption="Before &amp; After: 6 of 6"
+                >
+                  <span>06</span>
+                </button>
+              </div>
+            </div>
+
+            <p>
+              More importantly, the project changed conversations inside the organization. Research helped stakeholders
+              see gaps between documented processes and actual employee behavior, creating alignment around improvements
+              that previously seemed risky.
+            </p>
+
+            <div class="cs-quote-bright">
+              <span class="cs-quote-mark cs-quote-mark--dark" aria-hidden="true">“</span>
+              <p>I never knew how bad this screen was, until I saw your new designs. Thank you.</p>
+              <p class="cs-quote-attrib">- REGIONAL LOSS PREVENTION AUDITOR</p>
+            </div>
+
+            <p>
+              That comment meant more than approval of a single redesign. It demonstrated that thoughtful UX work could
+              help stakeholders recognize opportunities they hadn't previously realized existed.
+            </p>
+          </section>
+
+          <!-- REFLECTIONS -->
+          <section id="reflections" data-section="reflections" class="cs-section">
+            <div class="cs-eyebrow">REFLECTIONS</div>
+            <h2 class="cs-h2">Challenge assumptions, including your own</h2>
+            <p class="cs-lead">This project reinforced two connected lessons.</p>
+
+            <div class="cs-pair">
+              <div class="cs-reflect-card">
+                <div class="cs-reflect-num">01</div>
+                <h4>Research uncovers realities stakeholders never see</h4>
+                <p>
+                  Business processes are usually designed around intended workflows, but employees adapt those workflows
+                  over time. Understanding those adaptations is essential before redesigning the experience.
+                </p>
+              </div>
+              <div class="cs-reflect-card">
+                <div class="cs-reflect-num">02</div>
+                <h4>Research reveals gaps in our own understanding</h4>
+                <p>
+                  Several redesign ideas that initially seemed obvious became less appropriate after additional
+                  stakeholder conversations exposed operational requirements I hadn't yet uncovered.
+                </p>
+              </div>
+            </div>
+
+            <div class="cs-reflect-dark">
+              <p>
+                Good design comes from understanding the system before trying to improve it. Sometimes that means
+                validating existing practices. Sometimes it means changing long-standing processes. Either way, the goal
+                isn't proving that design is right,
+                <span class="cs-accent">
+                  the goal is helping everyone better understand the problem so the team can make better decisions
+                  together.
+                </span>
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- NEXT CASE STUDY -->
+      <a href="/case-studies/future-point-of-sale" class="cs-nextup">
+        <div>
+          <div class="cs-nextup-eyebrow">NEXT CASE STUDY · 03</div>
+          <div class="cs-nextup-title">Future Point of Sale</div>
+          <div class="cs-nextup-sub">Designing the system, not just the interface.</div>
+        </div>
+        <span class="cs-nextup-arrow" aria-hidden="true"
+          ><svg class="mdi" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 11h12.17l-5.59-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4z" /></svg
+        ></span>
+      </a>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div class="grid-12 footer-row">
+          <div class="col-6 footer-brand-col">
+            <a class="brand" href="/">
+              <span class="brand-mark" aria-hidden="true">
+                <img src="/__l5e/assets-v1/04364636-c17a-46c9-844e-863ad1c51a2c/AA_logo-colors.svg" alt="" />
+              </span>
+              <span class="brand-text">
+                <span class="brand-name">AARON LEWIS</span>
+                <span class="brand-role">PRODUCT DESIGNER</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-6 footer-nav-col">
+            <nav class="footer-nav" aria-label="Footer">
+              <a href="https://www.linkedin.com/in/aldsgn/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a
+                href="/__l5e/assets-v1/d0f5d523-414c-4c6d-839f-1ce97f323c79/Aaron-Lewis-Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Download Resume</a
+              >
+              <a href="mailto:alewisdesign@gmail.com" class="email-red">alewisdesign@gmail.com</a>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-fine">
+          <span>Dallas–Fort Worth · Remote</span>
+          <span>© <span id="year">2026</span> Aaron Lewis</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
