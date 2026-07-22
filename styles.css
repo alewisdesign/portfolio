@@ -1434,6 +1434,23 @@ a.pill:hover {
   display: block;
 }
 
+.cs-figure-section {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  display: block;
+  margin: 24px 0;
+  overflow: hidden;
+  box-shadow: var(--elev-4);
+}
+
+.cs-figure-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: inherit;
+}
+
 /* Dark pull quote card */
 .cs-quote-dark {
   background: #0d1218;
@@ -1511,7 +1528,31 @@ a.pill:hover {
   border-radius: 16px;
   box-shadow: var(--elev-4);
   margin: 24px 0;
+  overflow: hidden;
 }
+.cs-fullwidth-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: inherit;
+}
+
+/* Figure that preserves the image's natural aspect ratio (not full width) */
+.cs-figure-natural {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 26px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--elev-4);
+}
+.cs-figure-natural img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 
 
 /* Light blue callout */
@@ -2570,14 +2611,15 @@ a.pill:hover {
   }
 }
 
-/* Contain variant: preserves full image, letterboxes on white */
+/* Contain variant: preserves full image, letterboxes on dark charcoal */
 .ba-carousel--contain .ba-viewer,
 .ba-carousel--contain .ba-thumb {
   aspect-ratio: 4 / 3;
   background-size: contain;
-  background-color: #fff;
+  background-color: #333333;
 }
 .ba-carousel--contain .ba-viewer.has-image {
-  background-color: #fff;
+  background-color: #333333;
 }
+
 
