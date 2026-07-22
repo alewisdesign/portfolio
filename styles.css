@@ -1660,6 +1660,13 @@ a.pill:hover {
   color: #c8d6e2;
   max-width: 860px;
 }
+.cs-reflect-dark .cs-callout-heading {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(20px, 2.2vw, 26px);
+  line-height: 1.28;
+  color: #ffffff;
+}
 
 /* Next-case-study banner */
 .cs-nextup {
