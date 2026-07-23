@@ -624,8 +624,15 @@ a {
 .stat-label {
   margin: 8px 0 0;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 36px;
   letter-spacing: -0.01em;
+}
+.stat-words {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(36px, 9vw, 64px);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
 }
 .stat--cta {
   justify-content: center;
@@ -1553,8 +1560,6 @@ a.pill:hover {
   height: auto;
 }
 
-
-
 /* Light blue callout */
 .cs-callout-blue {
   background: #cfe6f8;
@@ -2186,8 +2191,8 @@ a.pill:hover {
   width: 44px;
   height: 44px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: var(--ink);
+  border: 1px solid var(--ink);
   color: #fff;
   font-size: 20px;
   cursor: pointer;
@@ -2197,7 +2202,7 @@ a.pill:hover {
   z-index: 2;
 }
 .vw-lb-close:hover {
-  background: rgba(255, 255, 255, 0.16);
+  background: #000;
 }
 
 .vw-lb-nav {
@@ -2207,8 +2212,8 @@ a.pill:hover {
   width: 52px;
   height: 52px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: var(--ink);
+  border: 1px solid var(--ink);
   color: #fff;
   cursor: pointer;
   display: flex;
@@ -2218,8 +2223,9 @@ a.pill:hover {
   transition: background 0.15s ease;
 }
 .vw-lb-nav:hover {
-  background: rgba(255, 255, 255, 0.18);
+  background: #000;
 }
+
 .vw-lb-prev {
   left: 24px;
 }
@@ -2241,7 +2247,10 @@ a.pill:hover {
 
 .vw-lb-panel {
   width: 100%;
-  max-width: 900px;
+  max-width: min(1600px, 96vw);
+  max-height: 96vh;
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
   overflow: hidden;
   background: #0d1218;
@@ -2249,16 +2258,22 @@ a.pill:hover {
 }
 .vw-lb-image {
   width: 100%;
-  height: min(62vh, 640px);
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: min(82vh, 1100px);
+  overflow-y: auto;
   background: linear-gradient(135deg, #17232f 0%, #0d1218 100%);
   position: relative;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+}
+.vw-lb-image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .vw-lb-image.has-image::after {
   content: none;
 }
+
 .vw-lb-image::after {
   content: attr(data-placeholder);
   position: absolute;
@@ -2530,6 +2545,7 @@ a.pill:hover {
 .ba-viewer.has-image {
   background-color: #0e1e2c;
 }
+
 .ba-caption {
   font-family: var(--font-display, "Outfit"), sans-serif;
   font-size: 14px;
@@ -2628,5 +2644,3 @@ a.pill:hover {
 .ba-carousel--contain .ba-viewer.has-image {
   background-color: #333333;
 }
-
-

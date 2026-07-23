@@ -96,6 +96,7 @@
   var lb = document.getElementById("vw-lightbox");
   if (!lb) return;
   var img = document.getElementById("vw-lb-image");
+  var imgTag = document.getElementById("vw-lb-img");
   var titleEl = document.getElementById("vw-lb-title");
   var descEl = document.getElementById("vw-lb-desc");
   var tagsEl = document.getElementById("vw-lb-tags");
@@ -112,10 +113,10 @@
     img.setAttribute("data-placeholder", card.getAttribute("data-vw-placeholder") || "");
     var imgUrl = card.getAttribute("data-vw-image");
     if (imgUrl) {
-      img.style.backgroundImage = 'url("' + imgUrl + '")';
+      if (imgTag) imgTag.src = imgUrl;
       img.classList.add("has-image");
     } else {
-      img.style.backgroundImage = "";
+      if (imgTag) imgTag.src = "";
       img.classList.remove("has-image");
     }
     tagsEl.innerHTML = "";
@@ -219,4 +220,6 @@
     apply(0);
   });
 })();
+
+
 
