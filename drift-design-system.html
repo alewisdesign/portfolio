@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Drift Design System: Aaron Lewis Case Study</title>
+    <meta
+      name="description"
+      content="Case study: building a shared design language for enterprise applications — principles, the Auto-mic Design taxonomy, documentation, and the identity behind the Drift Design System."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Instrument+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css?v=8.1" />
+  </head>
+  <body class="cs-page">
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="./assets/04364636_AA_logo-colors.svg" alt="" />
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">AARON LEWIS</span>
+            <span class="brand-role">PRODUCT DESIGNER</span>
+          </span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav id="primary-nav" class="site-nav" aria-label="Primary">
+          <div class="nav-item has-dropdown">
+            <button type="button" class="nav-link nav-dropdown-toggle" aria-expanded="false" aria-controls="cs-menu">
+              Case Studies
+              <svg class="mdi" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
+              </svg>
+            </button>
+            <div id="cs-menu" class="nav-dropdown" role="menu">
+              <a href="ship-to-home.html" role="menuitem">Ship to Home</a>
+              <a href="cash-management.html" role="menuitem">Cash Management</a>
+              <a href="future-point-of-sale.html" role="menuitem">Future Point of Sale</a>
+              <a href="drift-design-system.html" role="menuitem">Drift Design System</a>
+              <a href="selected-visual-work.html" role="menuitem">Selected Visual Work</a>
+            </div>
+          </div>
+          <a href="about.html" target="_top">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container cs-main">
+      <!-- HERO CARD -->
+      <section class="cs-hero card card--light">
+        <span class="cs-hero-watermark" aria-hidden="true">04</span>
+        <span class="cs-badge">DESIGN SYSTEM STRATEGY</span>
+        <h1 class="cs-hero-title">Drift <br />Design System</h1>
+        <p class="cs-hero-tagline"><span class="cs-accent">A shared language</span> creates better products.</p>
+
+        <div class="cs-meta-grid">
+          <div class="cs-meta-card">
+            <div class="cs-meta-label">ROLE</div>
+            <div class="cs-meta-value">UX Designer</div>
+          </div>
+          <div class="cs-meta-card">
+            <div class="cs-meta-label">TEAM</div>
+            <div class="cs-meta-value">Three UX Designers</div>
+          </div>
+          <div class="cs-meta-card">
+            <div class="cs-meta-label">PROJECT TYPE</div>
+            <div class="cs-meta-value">Design System Strategy</div>
+          </div>
+        </div>
+
+        <img
+          class="cs-hero-image"
+          src="./assets/75559fbf_Drift_Design_System_Hero2.png"
+          alt="Drift Design System hero image showing the Drift logo and title card"
+        />
+      </section>
+
+      <!-- BODY -->
+      <div class="cs-body">
+        <aside class="cs-rail" aria-label="On this page">
+          <div class="cs-rail-label">ON THIS PAGE</div>
+          <nav class="cs-rail-nav">
+            <a href="#overview" data-navlink="overview" class="cs-rail-link is-active">Overview</a>
+            <a href="#problem" data-navlink="problem" class="cs-rail-link">The Problem</a>
+            <a href="#approach" data-navlink="approach" class="cs-rail-link">The Approach</a>
+            <a href="#outcome" data-navlink="outcome" class="cs-rail-link">Outcome</a>
+            <a href="#reflection" data-navlink="reflection" class="cs-rail-link">Reflection</a>
+          </nav>
+        </aside>
+
+        <div class="cs-content">
+          <!-- OVERVIEW -->
+          <section id="overview" data-section="overview" class="cs-section">
+            <div class="cs-eyebrow">OVERVIEW</div>
+            <p class="cs-lead">
+              As part of O'Reilly Auto Parts' modernization initiative, our UX team began exploring what the future of
+              the company's retail applications could become.
+            </p>
+            <p>
+              The first effort focused on reimagining the Point of Sale experience, but as our work progressed, we
+              realized we were trying to solve two different problems at the same time. One project focused on designing
+              the future Point of Sale experience. The other focused on creating the design language that would support
+              that application, along with future products across the company.
+            </p>
+            <p>
+              Splitting these efforts gave each project a clear purpose. The Future Point of Sale became a product
+              discovery initiative, while Drift became the design system that would establish a shared foundation for
+              future applications.
+            </p>
+            <h2 class="cs-h3">Project Highlights</h2>
+            <ul>
+              <li>Created a shared design language for enterprise applications</li>
+              <li>Established principles, documentation, and reusable components</li>
+              <li>Collaborated with design, product, and engineering partners</li>
+              <li>Selected as O'Reilly Auto Parts' future company-wide design system</li>
+            </ul>
+
+            <img
+              class="cs-figure cs-figure-section"
+              src="./assets/9ed90849_The_Journey.png"
+              alt="The journey of Drift Design System from PDR research project to independent design system"
+            />
+          </section>
+
+          <!-- THE PROBLEM -->
+          <section id="problem" data-section="problem" class="cs-section">
+            <div class="cs-eyebrow cs-eyebrow--red">THE PROBLEM</div>
+            <p>
+              The original modernization effort exposed two challenges. The first was scope. We had combined a product
+              redesign and a design system into one initiative, making it difficult for either project to move forward
+              effectively. The second was consistency. Different products across the company had evolved independently
+              over time, each with its own design language, interaction patterns, and documentation. As new applications
+              were planned, there wasn't a shared foundation that design and engineering teams could build from.
+            </p>
+            <p>
+              To understand the current landscape, I completed a UI inventory across existing retail applications and
+              documented the different visual styles and interaction patterns already in use. I also benchmarked
+              competing retail products to identify common patterns and opportunities that could influence our
+              direction.
+            </p>
+            <p>
+              These findings reinforced the need for a design system that could support current work while scaling to
+              future products.
+            </p>
+
+            <img
+              class="cs-figure cs-figure-section"
+              src="./assets/db3a865b_SOT_uiInventory-2.png"
+              alt="UI Inventory showing existing applications and design inconsistencies"
+            />
+          </section>
+
+          <!-- THE APPROACH -->
+          <section id="approach" data-section="approach" class="cs-section">
+            <div class="cs-eyebrow">THE APPROACH</div>
+            <h2 class="cs-h2">Creating a foundation before building components</h2>
+            <p>
+              Once the projects were separated, our focus shifted toward defining what Drift should become. Before
+              creating components, our team worked together to establish the guiding principles that would shape the
+              design system and provide a shared philosophy for future decisions. Those conversations eventually became
+              the Drift Design System Principles &amp; Philosophy.
+            </p>
+
+            <div class="cs-purpose-card">
+              <div class="cs-purpose-col">
+                <h3>Our Purpose</h3>
+                <p>
+                  Our unified design system exists to create cohesive, accessible, and scalable user experiences across
+                  all platforms — web and mobile — regardless of codebase or team. It is a single source of truth for
+                  design and development, enabling faster delivery and better usability.
+                </p>
+              </div>
+              <div class="cs-purpose-col">
+                <h3>Our Promise</h3>
+                <p><strong>By unifying our design systems</strong></p>
+                <ul>
+                  <li>We ship faster, with greater confidence.</li>
+                  <li>We provide delightful, inclusive, and consistent experiences.</li>
+                  <li>We create a system that serves our users not just our teams.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cs-principles-grid">
+              <img
+                class="cs-principle-card"
+                src="./assets/81374146_Principles1-2.png"
+                alt="Principle 1: Consistency Over Customization"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/d80d84c6_Principles2-2.png"
+                alt="Principle 2: Accessible By Default"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/362702d6_Principles3-2.png"
+                alt="Principle 3: One Foundation, Multi-Platform Flexibility"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/5a43ff49_Principles4-2.png"
+                alt="Principle 4: Design and Code in Harmony"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/bcc8b1a2_Principles5-2.png"
+                alt="Principle 5: Modular, Not Monolithic"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/fe582dd7_Principles6-2.png"
+                alt="Principle 6: Contribution Through Collaboration"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/ee400410_Principles7-2.png"
+                alt="Principle 7: Approachable Communication"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/63cbb8ad_Principles8-2.png"
+                alt="Principle 8: Documentation As Important As Design"
+                loading="lazy"
+              />
+            </div>
+            <p>
+              As the project gained momentum, I helped create the name Drift and designed the wordmark for the system.
+              Giving the design system its own identity made it easier to talk about across the organization and helped
+              build visibility with product teams and stakeholders.
+            </p>
+
+            <img
+              class="cs-figure cs-figure-section"
+              src="./assets/8de8407c_Drift_Typography_Wordmark_and_Tag-2.jpg"
+              alt="Drift wordmark typography specifications with Roboto Flex variable font settings"
+              loading="lazy"
+            />
+            <img
+              class="cs-figure cs-figure-section"
+              src="./assets/cef2766e_drift_logos-2.png"
+              alt="Drift logo lockups, color variations, stickers, and merchandise applications"
+              loading="lazy"
+            />
+
+            <h2 class="cs-h2">Creating a shared language</h2>
+            <p>
+              As our conversations became more detailed, we needed a way to explain how the design system was organized.
+              I adapted Brad Frost's Atomic Design framework into what became Auto-mic Design, a taxonomy built around
+              automotive concepts that felt natural within O'Reilly. Instead of Atoms, Molecules, and Organisms, the
+              system was organized as:
+            </p>
+            <ul>
+              <li>Nuts &amp; Bolts</li>
+              <li>Parts</li>
+              <li>Assemblies</li>
+              <li>Car Systems</li>
+              <li>Blueprints</li>
+              <li>Whole Car</li>
+            </ul>
+            <p>
+              The framework gave designers, engineers, product managers, and business stakeholders a common vocabulary
+              for discussing everything from design tokens to complete application experiences. It also connected the
+              design system to the company's identity instead of relying on terminology borrowed from another industry.
+            </p>
+
+            <img
+              class="cs-figure cs-figure-section"
+              src="./assets/eef04655_Drift_Auto-mic_Design2-2.png"
+              alt="Auto-mic Design taxonomy diagram"
+            />
+
+            <h2 class="cs-h2">Building the system</h2>
+            <p>
+              With the foundation established, the team shifted into building the design system itself. We divided
+              component creation across the three designers, regularly reviewed one another's work, and documented
+              decisions as the library continued to evolve.
+            </p>
+            <p>
+              Alongside the component work, I wrote several pieces of the supporting documentation, including the Drift
+              Principles &amp; Philosophy, Voice &amp; Tone guidelines, Accessibility guidelines, and Taxonomy. These
+              documents helped establish consistent guidance for teams beyond the visual components themselves.
+            </p>
+            <p>
+              As Drift matured, we also created governance documentation that defined how future components would be
+              proposed, reviewed, and added to the system.
+            </p>
+            <p>
+              Around the same time, I began collaborating with engineering to understand technical considerations and
+              implementation strategies so both teams could align early in the process.
+            </p>
+            <p>
+              Google Material Design served as a starting point for many interaction patterns, but we adapted those
+              patterns to fit our users, products, and business needs rather than adopting the system as-is.
+            </p>
+
+            <div class="cs-guidelines-grid">
+              <img
+                class="cs-principle-card"
+                src="./assets/1e5e5bdb_Guidelines_Principles-2.png"
+                alt="Drift principles and philosophy documentation"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/2f2cf9e2_Guidelines_Taxonomy-2.png"
+                alt="Drift taxonomy documentation"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/2a9cfefa_Guidelines_Voice_Tone-2.png"
+                alt="Drift voice and tone guidelines documentation"
+                loading="lazy"
+              />
+              <img
+                class="cs-principle-card"
+                src="./assets/de3eccda_Guidelines_Accessibility-2.png"
+                alt="Drift accessibility guidelines documentation"
+                loading="lazy"
+              />
+            </div>
+
+            <img
+              class="cs-figure cs-figure-section"
+              src="./assets/c80d3c56_components_banners-2.png"
+              alt="Drift Figma library: Banners component page with properties panel"
+              loading="lazy"
+            />
+            <img
+              class="cs-figure cs-figure-section"
+              src="./assets/2f9ca8fc_components_snackbar-2.png"
+              alt="Drift Figma library: Snackbar component page with properties panel"
+              loading="lazy"
+            />
+            <img
+              class="cs-figure cs-figure-section"
+              src="./assets/eb80e6dd_components_tooltips-2.png"
+              alt="Drift Figma library: Tooltips component page with properties panel"
+              loading="lazy"
+            />
+          </section>
+
+          <!-- OUTCOME -->
+          <section id="outcome" data-section="outcome" class="cs-section">
+            <div class="cs-eyebrow">OUTCOME</div>
+            <p class="cs-lead">
+              As Drift continued to mature, the company hired a third-party consultancy to create a design system for
+              other areas of the business. At the time, we assumed our work would eventually become part of whatever
+              solution they delivered. Rather than slowing down, we continued building Drift with the expectation that
+              our work could be adapted if needed.
+            </p>
+            <p>
+              The opposite happened. Leadership saw greater value in the direction our internal team had established
+              than in the work delivered by the consultants. The consulting engagement ended, and Drift was selected as
+              the design system that will serve as the shared foundation across the company.
+            </p>
+            <p>
+              The long-term vision is for Drift to provide the core design language while allowing individual products
+              and departments to extend the system for their own needs without losing consistency across the
+              organization. Today the project continues to evolve.
+            </p>
+            <ul>
+              <li>The guiding principles and documentation are established.</li>
+              <li>The component library is approximately 90% complete.</li>
+              <li>Design tokens and variables are ready for engineering implementation.</li>
+              <li>Engineering has begun planning a headless component architecture.</li>
+              <li>
+                Drift is serving as the design foundation for the Future Point of Sale and future modernization efforts.
+              </li>
+            </ul>
+          </section>
+
+          <!-- REFLECTION -->
+          <section id="reflection" data-section="reflection" class="cs-section">
+            <div class="cs-eyebrow">REFLECTION</div>
+            <p class="cs-lead">
+              This project expanded my understanding of what it takes to create a design system that can scale across an
+              organization. Building reusable components was an important part of the work, but it depended on having
+              shared principles, common terminology, and clear documentation that designers, engineers, and product
+              teams could all understand and reference.
+            </p>
+            <p>
+              Separating Drift from the Future Point of Sale also changed the trajectory of both projects. Once each
+              initiative had its own focus, the team was able to make progress more deliberately while still supporting
+              the same modernization effort.
+            </p>
+
+            <div class="cs-reflect-dark">
+              <p>
+                Looking back, I'm especially proud of the work that helped shape the system's identity.
+                <span class="cs-accent">
+                  Naming Drift, creating the Auto-mic Design taxonomy, and writing foundational guidance gave the
+                  project a common language that teams could rally around as the system continues to grow.
+                </span>
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- NEXT CASE STUDY -->
+      <a href="selected-visual-work.html" class="cs-nextup">
+        <div>
+          <div class="cs-nextup-eyebrow">NEXT · SELECTED WORK</div>
+          <div class="cs-nextup-title">Visual Work</div>
+          <div class="cs-nextup-sub">Range, over a single story.</div>
+        </div>
+        <span class="cs-nextup-arrow" aria-hidden="true"
+          ><svg class="mdi" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 11h12.17l-5.59-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4z" /></svg
+        ></span>
+      </a>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div class="grid-12 footer-row">
+          <div class="col-6 footer-brand-col">
+            <a class="brand" href="index.html">
+              <span class="brand-mark" aria-hidden="true">
+                <img src="./assets/04364636_AA_logo-colors.svg" alt="" />
+              </span>
+              <span class="brand-text">
+                <span class="brand-name">AARON LEWIS</span>
+                <span class="brand-role">PRODUCT DESIGNER</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-6 footer-nav-col">
+            <nav class="footer-nav" aria-label="Footer">
+              <a href="https://www.linkedin.com/in/aldsgn/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a
+                href="./assets/d0f5d523_Aaron-Lewis-Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Download Resume</a
+              >
+              <a href="mailto:alewisdesign@gmail.com" class="email-red">alewisdesign@gmail.com</a>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-fine">
+          <span>Dallas–Fort Worth · Remote</span>
+          <span>© <span id="year">2026</span> Aaron Lewis</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js?v=8.1" defer></script>
+  </body>
+</html>

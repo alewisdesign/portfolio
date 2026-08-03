@@ -24,6 +24,7 @@
   --amaranth: #fe2e44;
   --three-am: #0b141c;
   --charcoal: #1a1a1a;
+  --mint: #77c98f;
 
   /* Semantic tokens */
   --bg: var(--powder);
@@ -645,19 +646,34 @@ a {
   color: var(--white);
   padding: var(--pad);
 }
+.banner-eyebrow {
+  color: var(--white);
+}
 .banner-row {
   align-items: center;
 }
 .banner-copy {
   margin: 0;
   font-size: 24px;
-  max-width: 44ch;
+  max-width: none;
+}
+.banner-figure {
+  margin: 24px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--white);
+}
+.banner-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 .banner-cta {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
+
 .banner-link {
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -2261,13 +2277,19 @@ a.pill:hover {
   flex: 1 1 auto;
   min-height: 0;
   max-height: min(82vh, 1100px);
-  overflow-y: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(135deg, #17232f 0%, #0d1218 100%);
   position: relative;
 }
 .vw-lb-image img {
-  width: 100%;
+  max-width: 100%;
+  max-height: min(82vh, 1100px);
+  width: auto;
   height: auto;
+  object-fit: contain;
   display: block;
 }
 .vw-lb-image.has-image::after {
@@ -2643,4 +2665,195 @@ a.pill:hover {
 }
 .ba-carousel--contain .ba-viewer.has-image {
   background-color: #333333;
+}
+
+/* ---------------------------------------------------------------
+   Definition grid — labelled cards (RACI roles, Auto-mic taxonomy,
+   Drift current-state columns). Used on the Drift Design System page.
+   --------------------------------------------------------------- */
+.cs-def-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+.cs-def-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.cs-def-card {
+  background: var(--snow);
+  border-radius: 18px;
+  padding: 24px 26px;
+  box-shadow: var(--elev-1);
+}
+.cs-def-card--dark {
+  background: #0d1218;
+  box-shadow: none;
+}
+.cs-def-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--text);
+  margin: 0;
+}
+.cs-def-card--dark .cs-def-title {
+  color: var(--white);
+}
+.cs-def-desc {
+  margin: 8px 0 0;
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+.cs-def-card--dark .cs-def-desc {
+  color: #a9bccb;
+}
+.cs-def-card ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.cs-def-card--dark ul {
+  color: #a9bccb;
+}
+.cs-def-eyebrow {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brand-blue-dark);
+  margin: 0 0 8px;
+}
+.cs-def-card--dark .cs-def-eyebrow {
+  color: var(--brand-blue);
+}
+@media (max-width: 900px) {
+  .cs-def-grid--three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 720px) {
+  .cs-def-grid,
+  .cs-def-grid--three {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------------------------------------------------------------
+   Purpose + Promise card (Drift Design System)
+   --------------------------------------------------------------- */
+.cs-purpose-card {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  background: #0d1218;
+  border-radius: 22px;
+  padding: 44px 46px;
+  margin: 24px 0;
+  color: #c8d6e2;
+}
+.cs-purpose-card h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(24px, 2.8vw, 32px);
+  line-height: 1.2;
+  color: var(--mint);
+  margin: 0 0 16px;
+}
+.cs-purpose-card p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #c8d6e2;
+}
+.cs-purpose-card strong {
+  color: var(--snow);
+}
+.cs-purpose-card ul {
+  margin: 12px 0 0;
+  padding-left: 22px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #c8d6e2;
+}
+.cs-purpose-card ul li {
+  margin-bottom: 6px;
+}
+
+@media (max-width: 720px) {
+  .cs-purpose-card {
+    grid-template-columns: 1fr;
+    padding: 32px 26px;
+  }
+}
+
+/* ---------------------------------------------------------------
+   Principles grid — two-up manifesto cards (Drift Design System)
+   --------------------------------------------------------------- */
+.cs-principles-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+.cs-principle-card {
+  margin: 0;
+  background: var(--snow);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--elev-1);
+}
+.cs-principle-card img,
+img.cs-principle-card {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .cs-principles-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Guidelines grid — four-up document cards (Drift Design System) */
+.cs-guidelines-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+.cs-guidelines-grid .cs-principle-card {
+  background: #39433d;
+}
+@media (max-width: 900px) {
+  .cs-guidelines-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .cs-guidelines-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+}
+
+
+/* Placeholder blocks sized like real case-study figures */
+.cs-figure.placeholder-img {
+  border-radius: 18px;
+  aspect-ratio: 16 / 7;
+  text-align: center;
+  padding: 0 24px;
+}
+.cs-hero-image.placeholder-img {
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 0 24px;
 }
